@@ -1,0 +1,135 @@
+.Titulos{
+    height: 14.25rem;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(214,255,56,1) 51%, rgba(214,255,56,1) 71%, rgba(214,255,56,1) 100%);
+    background: -webkit-gradient (left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(1%, rgba(255,255,255,1)), color-stop(51%, rgba(214,255,56,1)), color-stop(71%, rgba(214,255,56,1)), color-stop(100%, rgba(214,255,56,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(214,255,56,1) 51%, rgba(214,255,56,1) 71%, rgba(214,255,56,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(214,255,56,1) 51%, rgba(214,255,56,1) 71%, rgba(214,255,56,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(214,255,56,1) 51%, rgba(214,255,56,1) 71%, rgba(214,255,56,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(214,255,56,1) 51%, rgba(214,255,56,1) 71%, rgba(214,255,56,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6ff38', GradientType=0 );
+}
+
+.Prendas2{
+    @include grid(repeat(4,25%), repeat(3,500px),center, center, none);
+    width:100%;
+    // height:31.25rem;
+    // margin-top: 250px;
+}
+.Prenda2{
+    @include flex(column,center,center,none)
+    width: 17.0625rem;
+    height: 23.4375rem;
+    margin: 80px;
+}
+.imgp1-2{
+    height: 95%;
+    width: 100%;
+    overflow: hidden;
+    @include flex(row,none,none,none);
+    img{
+        width: 100%;
+        height: 89%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp2-2{
+    @extend .imgp1;
+    img{
+        width: 105%;
+        height: 90%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp3-2{
+    @extend .imgp2;
+    img{
+        width: 100%;
+        height: 82%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp4-2{
+    @extend .imgp3;
+    img{
+        width: 105%;
+        height: 82%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp5-2{
+    @extend .imgp4;
+    img{
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp6-2{
+    @extend .imgp5;
+    img{
+        width: 105%;
+        height: 90%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp7-2{
+    @extend .imgp6;
+    img{
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp8-2{
+    @extend .imgp7;
+    img{
+        width: 105%;
+        height: 90%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp9{
+    @extend .imgp8-2;
+    img{
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp10{
+    @extend .imgp9;
+    img{
+        width: 105%;
+        height: 90%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp11{
+    @extend .imgp10;
+    img{
+        width: 105%;
+        height: 90%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp12{
+    @extend .imgp11;
+    img{
+        width: 105%;
+        height: 90%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+    }
+}

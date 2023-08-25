@@ -1,0 +1,7 @@
+
+
+.grid-index{
+    @include grid(1fr, 1fr 9fr 1fr, none, none, "header" "main" "footer");
+    // width: 99vw;
+    height: 100vh;
+}

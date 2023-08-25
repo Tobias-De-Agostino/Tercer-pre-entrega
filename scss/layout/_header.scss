@@ -1,0 +1,61 @@
+header{
+    grid-area: header;
+    @include flex(row, space-between, center, 1.25rem);
+    width: 99vw;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
+
+}
+.logo{
+    @include flex(column, center, left, none);
+    width: 218px;
+    height: 100%; 
+    background-color: #D6FF38;
+    font-family: Bebas;
+    font-size: 35px;
+    border-right: solid 2px black;
+    padding-left: 15px;
+    .unpoco{
+        @include flex(row, right, right, none);
+        padding-right: 15px;
+    }
+}
+
+.navBar{
+    @include flex(row, center, center, .625rem);
+    list-style: none;
+    gap: 1.25rem;
+    li{
+        a{
+            text-decoration: none;
+            font-size: 1.25rem;
+            color: black;
+            font-family: Code;
+            transition: 0.4s;
+            padding-right: 40px;
+            &:hover{
+                color: #D6FF38;
+            }
+        }
+    }
+}
+
+.mostrar-menu,
+.esconder-menu{
+    font-size: 50px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+    // padding-right: 40px;
+    &:hover{
+        color: #D6FF38;
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+}
+.mostrar-menu{
+    order: 1;
+}
+#check{
+    display: none;
+}

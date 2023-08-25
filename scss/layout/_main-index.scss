@@ -1,0 +1,287 @@
+main{
+    grid-area: main;
+    width: 99vw;
+}
+.TituloInicio{
+    @include flex(row, center, center, none);
+    font-family: Akira;
+    font-size: 4rem;
+    margin-top: 6.25rem;
+}
+.Indu{
+    @include flex(row, center, center, none);
+    height: 38px;
+    width: 100%;
+    margin-top: .9375rem;
+    h3{
+        @include flex(row, center, center, none);
+        height: 38px;
+        width: 287px;
+        font-size: 1.25rem;
+        background-color: #D6FF38 ;
+        font-family: Code;
+    }
+}
+.img{
+    @include flex(row, space-between, center, 60px);
+    width: 90vw;
+    margin-top: 4.375rem;
+    margin-left: 3.125rem;
+    margin-right: 50px;
+}
+.img1{
+    img{
+        height: 33.625rem;
+        width: 34.8125rem;
+        border-radius: 1.5625rem; 
+    }
+    // grid-area: img1;
+
+}
+.img2{
+    img{
+        // grid-area: img2;
+        height: 41rem;
+        width: 34.8125rem;
+        border-radius: 1.5625rem;
+    }
+}
+.img3{
+    // grid-area: img3;
+    @extend .img1;
+}
+h4{
+    @include flex(row, center, none, none);
+    font-size: 1.625rem;
+    font-family: Akira;
+    margin-top: 5rem;
+}
+
+.Prendas1{
+    @include grid(repeat(4,25%), repeat(2,500px),center, center, none);
+    width:100%;
+    // height:31.25rem;
+    // margin-top: 250px;
+}
+.Prenda{
+    @include flex(column,center,center,none)
+    width: 17.0625rem;
+    height: 23.4375rem;
+    margin: 80px;
+}
+.imgp1{
+    height: 95%;
+    width: 100%;
+    overflow: hidden;
+    @include flex(row,none,none,none);
+    img{
+        width: 100%;
+    height: 89%;
+    object-fit: cover;
+    border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp2{
+    @extend .imgp1;
+    img{
+        width: 105%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp3{
+    @extend .imgp2;
+    img{
+        width: 100%;
+    height: 82%;
+    object-fit: cover;
+    border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp4{
+    @extend .imgp3;
+    img{
+        width: 105%;
+    height: 82%;
+    object-fit: cover;
+    border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp5{
+    @extend .imgp4;
+    img{
+        width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp6{
+    @extend .imgp5;
+    img{
+        width: 105%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp7{
+    @extend .imgp6;
+    img{
+        width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp8{
+    @extend .imgp7;
+    img{
+        width: 105%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+
+.CompraDes{
+    @include flex(row,center,center,none);
+    height: 38px;
+    width: 100%;
+    margin-top: 1.25rem;
+}
+.boton-comprades{
+    display: inline-block;
+    text-decoration: none;
+    color: #D6FF38;
+    background-color: black;
+    padding: 10px 30px;
+    font-size: 1.375rem;
+    margin-top: 1.25rem;
+    font-family: Code;
+}
+
+.Descuento252{
+    @include flex(row,space-between,center,none);
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 21%, rgba(214,255,56,1) 58%, rgba(214,255,56,1) 59%, rgba(214,255,56,1) 100%);
+    background: -webkit-gradient (left top, left bottom, color-stop (0%, rgba(255,255,255,1)), color-stop (21%, rgba(255,255,255,1)), color-stop(58%, rgba(214,255,56,1)), color-stop(59%, rgba(214,255,56,1)), color-stop(100%, rgba(214,255,56,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 21%, rgba(214,255,56,1) 58%, rgba(214,255,56,1) 59%, rgba(214,255,56,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 21%, rgba(214,255,56,1) 58%, rgba(214,255,56,1) 59%, rgba(214,255,56,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 21%, rgba(214,255,56,1) 58%, rgba(214,255,56,1) 59%, rgba(214,255,56,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 21%, rgba(214,255,56,1) 58%, rgba(214,255,56,1) 59%, rgba(214,255,56,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6ff38', GradientType=0 );
+    height: 37.75rem;
+    margin-top: 2.5rem;
+    img{
+        height: 37.75rem;
+        width: 450px;
+    }
+}
+.Texto25{
+    @include flex(column,center,center,none);
+    padding-left: 18.75rem;
+    img{
+        height: 10%;
+        width: 10%;
+    }
+}
+.T1{
+    color: black;
+    font-size: 1.5rem;
+    font-family: Code;
+}
+.T2{
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: Akira;
+    margin-top: .3125rem;
+}
+.T3{
+    color: black;
+    font-size: .8125rem;
+    font-family: Code;
+    margin-top: .3125rem;
+}
+
+.Descuento10{
+    @include flex(row,center,center,.3125rem);
+    color: black;
+    font-size: 1.5rem;
+    font-family: Akira;
+    text-decoration: underline;
+    img{
+        height: 54px;
+        width: 54px;
+    }
+}
+
+footer{
+    @include grid(repeat (1,1fr),none,none,none,none)
+    width: 100%;
+}
+.Pie1{
+    @include flex(row,none,none,none)
+    border: solid 2px black;
+}
+.Contacto{
+    @include flex(column,center,left, 1.25rem .3125rem);
+    background-color: black;
+    color: white;
+    font-size: 1.0625rem;
+    font-family: Code;
+    height: 31.1875rem;
+    width: 40%;
+    padding-left: 15.625rem;
+}
+.DTP{
+    font-size: 1.375rem;
+    font-family: Akira;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Info{
+    @include flex(row,center,left,12.5rem);
+    color: black;
+    font-size: .9375rem;
+    font-family: Code;
+    height: 31.1875rem;
+    width: 60%;
+    padding-left: 9.375rem;
+}
+.Tienda{
+    @include flex(column,center,none,.9375rem);
+}
+.Nosotros{
+    @extend .Tienda;
+}
+.TyC{
+    @extend .Tienda;
+}
+.Titulo{
+    font-size: 1.25rem;
+}
+.Pie2{
+    @include flex(row,none,none,none)
+}
+.Redes{
+    @include flex(row,center,center,4.375rem);
+    border: solid 2px black;
+    height: 5.625rem;
+    width: 40%;
+    img{
+        height: 50px;
+        width: 50px;
+    }
+}
+.Copi{
+    @include flex(row,center,center,none);
+    border: solid 2px black;
+    height: 5.625rem;
+    width: 60%;
+    font-size: 1.125rem;
+    font-family: Code;
+    background-color: #D6FF38;
+}

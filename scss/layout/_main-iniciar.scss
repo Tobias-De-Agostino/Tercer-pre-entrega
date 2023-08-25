@@ -1,0 +1,71 @@
+.mainLogReg{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* width: 100%; */
+}
+.SecIni{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+
+}
+.IniciarSesion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 840px;
+    height: 779px;
+
+}
+.IniciarSesionT{
+    font-size: 6rem;
+}
+.IniciarSesion div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.IniciarSesion div p a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.Formu div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    font-size: 1.75rem;
+}
+
+.Contra p{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.Error{
+    color: red;
+    font-size: 1rem;
+}
+button{
+    width: 490px;
+    height: 93px;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+}
+input{
+    width: 492px;
+    height: 60px;
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    border: solid 3px black;
+}
