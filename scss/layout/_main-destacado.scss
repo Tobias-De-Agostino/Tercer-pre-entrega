@@ -88,6 +88,16 @@
         border-radius: .625rem .625rem .625rem .625rem;
     }
 }
+.imgp7-3{
+    @extend .imgp6;
+    img{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+        margin-top: 90px;
+    }
+}
 .imgp8-2{
     @extend .imgp7;
     img{
@@ -100,8 +110,17 @@
 .imgp9{
     @extend .imgp8-2;
     img{
-        width: 100%;
+        width: 105%;
         height: 60%;
+        object-fit: cover;
+        border-radius: .625rem .625rem .625rem .625rem;
+    }
+}
+.imgp9-2{
+    @extend .imgp8-2;
+    img{
+        width: 100%;
+        height: 90%;
         object-fit: cover;
         border-radius: .625rem .625rem .625rem .625rem;
     }

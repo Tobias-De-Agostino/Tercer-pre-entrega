@@ -1,7 +1,7 @@
 header{
     grid-area: header;
     @include flex(row, space-between, center, 1.25rem);
-    width: 99vw;
+    width: 99,5vw;
     border-bottom: solid 3px black;
     border-right: solid 3px black;
 

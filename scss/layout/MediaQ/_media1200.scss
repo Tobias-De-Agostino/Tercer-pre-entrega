@@ -1,0 +1,46 @@
+@media (max-width:1200px){
+    header{
+        width: 98.6vw;
+    }
+    main{
+        width: 98vw;
+    }
+    .img{
+        gap: 30px;
+        margin-left: 0px;
+    }
+    .img1{
+        img{
+            height: 350px;
+            width: 350px;
+        }
+    }
+    .img2{
+        img{
+            height: 400px;
+            width: 350px;
+        }
+    }
+    .img3{
+        height: 350px;
+        width: 350px;
+    }
+
+    .Prenda{
+        margin: 0;
+    }
+    .Descuento252{
+        width: 98.6vw;
+        }
+
+    .Pie1{
+        width: 98.6vw;
+    }
+    .Contacto{
+        padding-left: 125px;
+    }
+    .Info{
+        gap: 6.25rem;
+        padding-left: 6.25rem;
+    }
+}
